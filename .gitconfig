@@ -1,0 +1,24 @@
+[user]
+	email = hudirybw@gmail.com
+	name = Zhuo
+[color]
+        ui = auto
+[alias]
+       # List available aliases
+       aliases = !git config --get-regexp alias | sed -re 's/alias\\.(\\S*)\\s(.*)$/\\1 = \\2/g'
+       # Command shortcuts
+       a = add
+       b = branch
+       ci = commit
+       co = checkout
+       st = status
+       rb = rebase
+       d = diff
+       l = log --oneline
+       pl = pull
+       ps = push
+[push]
+      default = upstream
+[color "branch"]
+      upstream = cyan
+    
